@@ -109,11 +109,11 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 安装CUDA需要注意与Cudnn版本的匹配：
 
-![CUDA_Download](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/CUDA_Download.png?raw=true)
+![image](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/CUDA_Download.png)
 
 参照下图进行类似的操作
 
-![Cudnn_Download](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/Cudnn_Download.png?raw=true)
+![image](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/Cudnn_Download.png)
 
 1. 安装时不选中驱动安装
 
@@ -153,7 +153,7 @@ index-url = https://mirrors.aliyun.com/pypi/simple
 
 下载下图的三个文件并按照次序安装安装指令：```dpkg -i 文件名```
 
-![Cudnn](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/Cudnn.png?raw=true)
+![image](https://github.com/HUALIMUGU/Ubuntu-Settings/blob/master/Cudnn.png)
 
 测试安装是否成功
 ```shell
