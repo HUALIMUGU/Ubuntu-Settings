@@ -60,11 +60,10 @@ Anaconda3报权限错误：
 sudo chown -R 你的用户名 anaconda3
 ```
 
-#### 3. conda加入国内源(清华)
-
+~~#### 3. conda加入国内源(清华)~~现因中止授权而关闭服务
+已经安装了国内源的，可以使用以下指令恢复默认：
 ```shell
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --set show_channel_urls yes
+conda config --remove-key channels
 ```
 
 ### pip接入国内源
